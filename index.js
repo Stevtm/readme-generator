@@ -1,6 +1,6 @@
 // declare packages needed for the app
-const { prompt } = require("inquirer");
 const inquirer = require("inquirer");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 // array of questions for user input
 const questions = [
@@ -42,6 +42,7 @@ const questions = [
 				return false;
 			}
 		},
+		default: "Fork the repository and run npm install",
 	},
 	{
 		type: "input",
@@ -56,6 +57,7 @@ const questions = [
 				return false;
 			}
 		},
+		default: "Use node.js to run the application in the command line!",
 	},
 	{
 		type: "list",
@@ -75,6 +77,7 @@ const questions = [
 			"Mozilla Public License 2.0",
 			"The Unlicense",
 		],
+		default: "MIT License",
 	},
 	{
 		type: "input",
@@ -90,6 +93,7 @@ const questions = [
 				return false;
 			}
 		},
+		default: "Pull Requests are appreciated!",
 	},
 	{
 		type: "input",
@@ -102,6 +106,7 @@ const questions = [
 				return false;
 			}
 		},
+		default: "...test??",
 	},
 	{
 		type: "input",
@@ -139,6 +144,7 @@ const questions = [
 				return false;
 			}
 		},
+		default: "email",
 	},
 ];
 
@@ -146,13 +152,13 @@ const promptUser = (questions) => {
 	return inquirer.prompt(questions);
 };
 
-const test = promptUser(questions).then((results) => console.log(results));
-
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
 
-// TODO: Create a function to initialize app
-function init() {}
+// function that initializes the application
+const init = () => {
+	promptUser(questions).then((results) => console.log(results));
+};
 
 // Function call to initialize app
 init();
