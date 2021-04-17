@@ -31,6 +31,8 @@
   here are some tests you can run to make sure the application is working correclty.
 
   ## Contact Me
-  stevtm
-  stevtm@stevtm.ca
-  email,phone
+  The best ways to contact me are by email,phone.
+
+  - <img src="./GitHub-Mark-32px.png"/>GitHub: [stevtm](https://github.com/stevtm)
+  - Email: stevtm@stevtm.ca
+
