@@ -172,11 +172,32 @@ const writeToFile = (data) => {
 };
 
 // function that initializes the application
-const init = () => {
-	promptUser(questions)
-		.then((results) => generateMarkdown(results))
-		.then((pageMD) => writeToFile(pageMD));
+// const init = () => {
+// 	promptUser(questions)
+// 		.then((results) => generateMarkdown(results))
+// 		.then((pageMD) => writeToFile(pageMD));
+// };
+
+const tempArray = {
+	title: "COVacation",
+	description:
+		"An application that allows the user to search for flights to a destination and shows relevant COVID-19 statistics at the destination country.",
+	intallation: "Fork the repository from GitHub onto your local machine.",
+	usage:
+		"Use `npm install` to install dependencies and then `node index.js` to start the application.",
+	license: "MIT",
+	contributing: "Pull requests are welcome!",
+	tests:
+		"here are some tests you can run to make sure the application is working correclty.",
+	github: "stevtm",
+	email: "stevtm@stevtm.ca",
+	contact: ["email", "phone"],
 };
 
-// Function call to initialize app
+const init = () => {
+	const pageMD = generateMarkdown(tempArray);
+	writeToFile(pageMD);
+};
+
+// function call to initialize app
 init();

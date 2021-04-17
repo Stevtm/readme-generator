@@ -1,7 +1,7 @@
 # COVacation
 
   ## Description
-  very cool app
+  An application that allows the user to search for flights to a destination and shows relevant COVID-19 statistics at the destination country.
 
   ## Table of Contents 
   - [Installation](#installation)
@@ -12,21 +12,25 @@
   - [Contact Me](#contact-me)
 
   ## Installation
-  Fork the repository and run npm install
+  undefined
 
   ## Usage 
-  Use node.js to run the application in the command line! 
+  Use `npm install` to install dependencies and then `node index.js` to start the application. 
 
   ## License
-  MIT License
+  <img
+  src="https://img.shields.io/badge/license-MIT-green"
+  alt="License Badge"
+  />
+  MIT
 
   ## Contributing 
-  Pull Requests are appreciated!
+  Pull requests are welcome!
 
   ## Tests 
-  ...test??
+  here are some tests you can run to make sure the application is working correclty.
 
   ## Contact Me
-  fdjs
   stevtm
-  email,GitHub
+  stevtm@stevtm.ca
+  email,phone
