@@ -154,7 +154,7 @@ const promptUser = (questions) => {
 };
 
 // function that writes a README file
-const writeToFile = (fileName, data) => {
+const writeToFile = (data) => {
 	return new Promise((resolve, reject) => {
 		fs.writeFile("./dist/README.md", data, (err) => {
 			// if there is an error, reject the Promise and send error to the Promise's `.catch()` method
@@ -173,7 +173,9 @@ const writeToFile = (fileName, data) => {
 
 // function that initializes the application
 const init = () => {
-	promptUser(questions).then((results) => console.log(results));
+	promptUser(questions)
+		.then((results) => generateMarkdown(results))
+		.then((pageMD) => writeToFile(pageMD));
 };
 
 // Function call to initialize app
