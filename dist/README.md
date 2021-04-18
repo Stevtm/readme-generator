@@ -1,5 +1,10 @@
 # COVacation
 
+  <img
+  src="https://img.shields.io/badge/license-MIT-green"
+  alt="License Badge"
+  />
+
   ## Description
   An application that allows the user to search for flights to a destination and shows relevant COVID-19 statistics at the destination country.
 
@@ -12,17 +17,15 @@
   - [Contact Me](#contact-me)
 
   ## Installation
-  undefined
+  Fork the repository from GitHub onto your local machine.
 
   ## Usage 
   Use `npm install` to install dependencies and then `node index.js` to start the application. 
 
   ## License
-  <img
-  src="https://img.shields.io/badge/license-MIT-green"
-  alt="License Badge"
-  />
-  MIT
+  This application is covered under the following license: MIT License.
+  
+  You can read more about this license, including its permissions, conditions, and limitations here: https://choosealicense.com/licenses/mit/
 
   ## Contributing 
   Pull requests are welcome!
@@ -30,9 +33,9 @@
   ## Tests 
   here are some tests you can run to make sure the application is working correclty.
 
-  ## Contact Me
-  The best ways to contact me are by email,phone.
+  ## Questions
+  Please don't hesitate to reach out to me with any questions about this project or others! 
 
-  - <img src="./GitHub-Mark-32px.png"/>GitHub: [stevtm](https://github.com/stevtm)
+  I can be reached via: 
+  - Github: [stevtm](https://github.com/stevtm)
   - Email: stevtm@stevtm.ca
-

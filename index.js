@@ -181,7 +181,7 @@ const tempArray = {
 	installation: "Fork the repository from GitHub onto your local machine.",
 	usage:
 		"Use `npm install` to install dependencies and then `node index.js` to start the application.",
-	license: "MIT",
+	license: "MIT License",
 	contributing: "Pull requests are welcome!",
 	tests:
 		"here are some tests you can run to make sure the application is working correclty.",
