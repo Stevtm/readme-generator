@@ -42,8 +42,6 @@ const renderLicenseDesc = (license) => {
 	return url;
 };
 
-console.log(renderLicenseDesc("Mozilla Public License 2.0"));
-
 // function that generates markdown for README
 function generateMarkdown(data) {
 	const {
@@ -75,22 +73,30 @@ function generateMarkdown(data) {
   - [Contact Me](#contact-me)
 
   ## Installation
+  Please follow these instructions to install the application: 
+
   ${installation}
 
   ## Usage 
+  Please follow these instructions to use the application: 
+
   ${usage} 
 
   ## License
   This application is covered under the following license: ${license}.
-  
+
   You can read more about this license, including its permissions, conditions, and limitations here: ${renderLicenseDesc(
 		license
 	)}
 
   ## Contributing 
+  Please follow these guidelines when contributing to this project: 
+
   ${contributing}
 
   ## Tests 
+  The following tests can be used to test the application operation: 
+
   ${tests}
 
   ## Questions

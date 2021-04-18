@@ -17,20 +17,28 @@
   - [Contact Me](#contact-me)
 
   ## Installation
+  Please follow these instructions to install the application: 
+
   Fork the repository from GitHub onto your local machine.
 
   ## Usage 
+  Please follow these instructions to use the application: 
+
   Use `npm install` to install dependencies and then `node index.js` to start the application. 
 
   ## License
   This application is covered under the following license: MIT License.
-  
+
   You can read more about this license, including its permissions, conditions, and limitations here: https://choosealicense.com/licenses/mit/
 
   ## Contributing 
+  Please follow these guidelines when contributing to this project: 
+
   Pull requests are welcome!
 
   ## Tests 
+  The following tests can be used to test the application operation: 
+
   here are some tests you can run to make sure the application is working correclty.
 
   ## Questions

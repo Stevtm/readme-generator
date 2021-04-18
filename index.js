@@ -129,20 +129,6 @@ const questions = [
 			}
 		},
 	},
-	{
-		type: "checkbox",
-		name: "contact",
-		message: "Please select acceptable methods of contacting you.",
-		choices: ["email", "GitHub", "phone", "pigeon"],
-		validate: (contactInput) => {
-			if (contactInput) return true;
-			else {
-				console.log("Please select at least one method of contact!");
-				return false;
-			}
-		},
-		default: "email",
-	},
 ];
 
 const promptUser = (questions) => {
@@ -187,7 +173,6 @@ const tempArray = {
 		"here are some tests you can run to make sure the application is working correclty.",
 	github: "stevtm",
 	email: "stevtm@stevtm.ca",
-	contact: ["email", "phone"],
 };
 
 const init = () => {
