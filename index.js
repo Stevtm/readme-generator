@@ -12,7 +12,7 @@ const questions = [
 		validate: (nameInput) => {
 			if (nameInput) return true;
 			else {
-				console.log("Please enter the title of the project!");
+				console.log("Please enter a title!");
 				return false;
 			}
 		},
@@ -24,7 +24,7 @@ const questions = [
 		validate: (descInput) => {
 			if (descInput) return true;
 			else {
-				console.log("Please provide a description of the project!");
+				console.log("Please enter a description!");
 				return false;
 			}
 		},
@@ -37,13 +37,12 @@ const questions = [
 		validate: (installInput) => {
 			if (installInput) return true;
 			else {
-				console.log(
-					"Please provide a description of the installation instructions for users!"
-				);
+				console.log("Please enter installation instructions!");
 				return false;
 			}
 		},
-		default: "Fork the repository and run npm install",
+		default:
+			"Fork the repository and execute `npm install` to install dependencies.",
 	},
 	{
 		type: "input",
@@ -52,13 +51,11 @@ const questions = [
 		validate: (usageInput) => {
 			if (usageInput) return true;
 			else {
-				console.log(
-					"Please provide a brief description of how to use the application!"
-				);
+				console.log("Please enter a descrption!");
 				return false;
 			}
 		},
-		default: "Use node.js to run the application in the command line!",
+		default: "Use `node index.js` to run the application in the command line!",
 	},
 	{
 		type: "list",
@@ -90,12 +87,14 @@ const questions = [
 				return false;
 			}
 		},
-		default: "Pull Requests are appreciated!",
+		default:
+			"Please follow the Contributor Covenant! https://www.contributor-covenant.org/",
 	},
 	{
 		type: "input",
 		name: "tests",
-		message: "test...huh?",
+		message:
+			"Which tests should be executed to ensure that the application is functioning as intended?",
 		validate: (testInput) => {
 			if (testInput) return true;
 			else {
@@ -103,7 +102,8 @@ const questions = [
 				return false;
 			}
 		},
-		default: "...test??",
+		default:
+			"Unit and functional testing of the terminal input and README generation.",
 	},
 	{
 		type: "input",
@@ -112,7 +112,7 @@ const questions = [
 		validate: (githubInput) => {
 			if (githubInput) return true;
 			else {
-				console.log("Please enter your GitHub username!");
+				console.log("Please enter a username!");
 				return false;
 			}
 		},
@@ -124,7 +124,7 @@ const questions = [
 		validate: (emailInput) => {
 			if (emailInput) return true;
 			else {
-				console.log("Please enter your email address!");
+				console.log("Please enter an email address!");
 				return false;
 			}
 		},
@@ -154,31 +154,31 @@ const writeToFile = (data) => {
 };
 
 // function that initializes the application
-// const init = () => {
-// 	promptUser(questions)
-// 		.then((results) => generateMarkdown(results))
-// 		.then((pageMD) => writeToFile(pageMD));
+const init = () => {
+	promptUser(questions)
+		.then((results) => generateMarkdown(results))
+		.then((pageMD) => writeToFile(pageMD));
+};
+
+// const tempArray = {
+// 	title: "COVacation",
+// 	description:
+// 		"An application that allows the user to search for flights to a destination and shows relevant COVID-19 statistics at the destination country.",
+// 	installation: "Fork the repository from GitHub onto your local machine.",
+// 	usage:
+// 		"Use `npm install` to install dependencies and then `node index.js` to start the application.",
+// 	license: "MIT License",
+// 	contributing: "Pull requests are welcome!",
+// 	tests:
+// 		"here are some tests you can run to make sure the application is working correclty.",
+// 	github: "stevtm",
+// 	email: "stevtm@stevtm.ca",
 // };
 
-const tempArray = {
-	title: "COVacation",
-	description:
-		"An application that allows the user to search for flights to a destination and shows relevant COVID-19 statistics at the destination country.",
-	installation: "Fork the repository from GitHub onto your local machine.",
-	usage:
-		"Use `npm install` to install dependencies and then `node index.js` to start the application.",
-	license: "MIT License",
-	contributing: "Pull requests are welcome!",
-	tests:
-		"here are some tests you can run to make sure the application is working correclty.",
-	github: "stevtm",
-	email: "stevtm@stevtm.ca",
-};
-
-const init = () => {
-	const pageMD = generateMarkdown(tempArray);
-	writeToFile(pageMD);
-};
+// const init = () => {
+// 	const pageMD = generateMarkdown(tempArray);
+// 	writeToFile(pageMD);
+// };
 
 // function call to initialize app
 init();

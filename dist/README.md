@@ -6,7 +6,7 @@
   />
 
   ## Description
-  An application that allows the user to search for flights to a destination and shows relevant COVID-19 statistics at the destination country.
+  This application searches for flights in the date range specified by the user. Based on the flight destination, relevant COVID information is shown so that the user can make an informed decision on where and when to travel safely. 
 
   ## Table of Contents 
   - [Installation](#installation)
@@ -19,31 +19,31 @@
   ## Installation
   Please follow these instructions to install the application: 
 
-  Fork the repository from GitHub onto your local machine.
+  Fork the repository and execute npm install to install dependencies.
 
   ## Usage 
   Please follow these instructions to use the application: 
 
-  Use `npm install` to install dependencies and then `node index.js` to start the application. 
+  Use `node index.js` to run the application in the command line! 
 
   ## License
-  This application is covered under the following license: MIT License.
+  This application is covered under the following license: The Unlicense.
 
-  You can read more about this license, including its permissions, conditions, and limitations here: https://choosealicense.com/licenses/mit/
+  You can read more about this license, including its permissions, conditions, and limitations here: https://choosealicense.com/licenses/unlicense/
 
   ## Contributing 
   Please follow these guidelines when contributing to this project: 
 
-  Pull requests are welcome!
+  Please follow the Contributor Covenant! https://www.contributor-covenant.org/
 
   ## Tests 
   The following tests can be used to test the application operation: 
 
-  here are some tests you can run to make sure the application is working correclty.
+  Unit and functional testing of the terminal input and README generation.
 
   ## Questions
   Please don't hesitate to reach out to me with any questions about this project or others! 
 
   I can be reached via: 
   - Github: [stevtm](https://github.com/stevtm)
-  - Email: stevtm@stevtm.ca
+  - Email: stevtm@stevtm.com
