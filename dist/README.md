@@ -1,12 +1,9 @@
-# fjdskf
+# test
 
-  <img
-  src="https://img.shields.io/badge/license-MIT-green"
-  alt="License Badge"
-  />
+  <img src=https://img.shields.io/badge/license-GNU_LGPLv3-green alt="License Badge" />
 
   ## Description
-  fsdfsd
+  test
 
   ## Table of Contents 
   - [Installation](#installation)
@@ -27,14 +24,14 @@
   Use `node index.js` to run the application in the command line! 
 
   ## License
-  This application is covered under the following license: MIT License.
+  This application is covered under the following license: GNU LGPLv3.
 
-  You can read more about this license, including its permissions, conditions, and limitations here: https://choosealicense.com/licenses/mit/
+  You can read more about this license, including its permissions, conditions, and limitations here: https://choosealicense.com/licenses/lgpl-3.0/
 
   ## Contributing 
   Please follow these guidelines when contributing to this project: 
 
-  Please follow the Contributor Covenant! https://www.contributor-covenant.org/
+  fds
 
   ## Tests 
   The following tests can be used to test the application operation: 
@@ -45,5 +42,5 @@
   Please don't hesitate to reach out to me with any questions about this project or others! 
 
   I can be reached via: 
-  - Github: [fdsj](https://github.com/fdsj)
-  - Email: fhjds
+  - Github: [fds](https://github.com/fds)
+  - Email: fds

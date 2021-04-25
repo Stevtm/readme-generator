@@ -1,11 +1,10 @@
 // function that returns a license badge for the selected license
 const renderLicenseBadge = (license) => {
-	const url = `img.shields.io/badge/license-${license}-green`;
+	str = license.replace(/\s/g, "_");
 
-	return `<img
-  src="https://img.shields.io/badge/license-MIT-green"
-  alt="License Badge"
-  />`;
+	const url = `https://img.shields.io/badge/license-${str}-green`;
+
+	return `<img src=${url} alt="License Badge" />`;
 };
 
 // function that returns a link to a description of the selected license
