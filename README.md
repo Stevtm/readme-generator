@@ -23,6 +23,8 @@ The application is able to perform the following functions:
 
 The following video shows a demonstration of the application being used to create a README!
 
+https://youtu.be/cxJWPOtlkrg
+
 ## Installation
 
 To use this application, you will need to have Node.js installed.
