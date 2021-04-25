@@ -69,7 +69,7 @@ function generateMarkdown(data) {
   - [License](#license)
   - [Contributing](#contributing)
   - [Tests](#tests)
-  - [Contact Me](#contact-me)
+  - [Questions](#questions)
 
   ## Installation
   Please follow these instructions to install the application: 

@@ -47,7 +47,7 @@ const questions = [
 	{
 		type: "input",
 		name: "usage",
-		message: "Please briefly describe the how to use the application.",
+		message: "Please briefly describe how to use the application.",
 		validate: (usageInput) => {
 			if (usageInput) return true;
 			else {
