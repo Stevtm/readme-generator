@@ -1,4 +1,4 @@
-# COVacation
+# fjdskf
 
   <img
   src="https://img.shields.io/badge/license-MIT-green"
@@ -6,7 +6,7 @@
   />
 
   ## Description
-  This application searches for flights in the date range specified by the user. Based on the flight destination, relevant COVID information is shown so that the user can make an informed decision on where and when to travel safely. 
+  fsdfsd
 
   ## Table of Contents 
   - [Installation](#installation)
@@ -19,7 +19,7 @@
   ## Installation
   Please follow these instructions to install the application: 
 
-  Fork the repository and execute npm install to install dependencies.
+  Fork the repository and execute `npm install` to install dependencies.
 
   ## Usage 
   Please follow these instructions to use the application: 
@@ -27,9 +27,9 @@
   Use `node index.js` to run the application in the command line! 
 
   ## License
-  This application is covered under the following license: The Unlicense.
+  This application is covered under the following license: MIT License.
 
-  You can read more about this license, including its permissions, conditions, and limitations here: https://choosealicense.com/licenses/unlicense/
+  You can read more about this license, including its permissions, conditions, and limitations here: https://choosealicense.com/licenses/mit/
 
   ## Contributing 
   Please follow these guidelines when contributing to this project: 
@@ -45,5 +45,5 @@
   Please don't hesitate to reach out to me with any questions about this project or others! 
 
   I can be reached via: 
-  - Github: [stevtm](https://github.com/stevtm)
-  - Email: stevtm@stevtm.com
+  - Github: [fdsj](https://github.com/fdsj)
+  - Email: fhjds

@@ -157,28 +157,10 @@ const writeToFile = (data) => {
 const init = () => {
 	promptUser(questions)
 		.then((results) => generateMarkdown(results))
-		.then((pageMD) => writeToFile(pageMD));
+		.then((pageMD) => writeToFile(pageMD))
+		.then(() => {
+			console.log("Your README has been created!");
+		});
 };
 
-// const tempArray = {
-// 	title: "COVacation",
-// 	description:
-// 		"An application that allows the user to search for flights to a destination and shows relevant COVID-19 statistics at the destination country.",
-// 	installation: "Fork the repository from GitHub onto your local machine.",
-// 	usage:
-// 		"Use `npm install` to install dependencies and then `node index.js` to start the application.",
-// 	license: "MIT License",
-// 	contributing: "Pull requests are welcome!",
-// 	tests:
-// 		"here are some tests you can run to make sure the application is working correclty.",
-// 	github: "stevtm",
-// 	email: "stevtm@stevtm.ca",
-// };
-
-// const init = () => {
-// 	const pageMD = generateMarkdown(tempArray);
-// 	writeToFile(pageMD);
-// };
-
-// function call to initialize app
 init();
